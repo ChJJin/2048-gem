@@ -450,7 +450,7 @@ public class MainView extends View {
 					Bitmap.Config.ARGB_8888);
 			Canvas canvas = new Canvas(bitmap);
 			drawDrawable(canvas, cellRectangle[xx], 0, 0, cellSize, cellSize);
-			drawCellText(canvas, (int) Math.pow(2, xx), 0, 0);
+			// drawCellText(canvas, (int) Math.pow(2, xx), 0, 0);
 			bitmapCell[xx] = new BitmapDrawable(resources, bitmap);
 		}
 	}
